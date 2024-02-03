@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+nav .navbar .nav-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+nav .navbar .nav-left .nav-list {
+  display: flex;
+}
+nav .navbar .nav-left .nav-list li {
+  padding-left: 20px;
+}
+nav .navbar .nav-left .nav-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+#banner {
+  background-color: #f3f6fd;
+}
+#banner .banner {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#banner .banner .banner-left .banner-text h2 {
+  font-size: 52px;
+}
+#banner .banner .banner-left .banner-input input {
+  padding: 20px 20px;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
